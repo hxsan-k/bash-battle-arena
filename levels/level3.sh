@@ -2,7 +2,7 @@
 
 #!/bin/bash
 
-if [ -f "/root/arena/hero.txt" ]
+if [ -f "arena/hero.txt" ]
 then
     echo "Hero found!"
 else 

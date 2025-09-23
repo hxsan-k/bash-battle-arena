@@ -1,9 +1,7 @@
-#Script creates a directory named Arena and then inside it, creates three files: 
-#warrior.txt, mage.txt, and archer.txt
-#It then lists the contents of the directory.
+#Script creates a directory, creates three files inside, and lists contents: 
 
 #!/bin/bash
 
-mkdir Arena; cd Arena
+mkdir arena; cd arena
 touch warrior.txt mage.txt archer.txt
-ls
+ls arena

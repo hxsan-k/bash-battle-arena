@@ -6,10 +6,6 @@
 
 #!/bin/bash
 
-mkdir ~/arena
-
-touch /root/arena/warrior.txt
-touch /root/arena/mage.txt
-touch /root/arena/archer.txt
-
-ls arena
+mkdir Arena; cd Arena
+touch warrior.txt mage.txt archer.txt
+ls
